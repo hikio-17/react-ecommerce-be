@@ -10,7 +10,7 @@ const fs = require("fs");
 
 // cors options
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "*",
   // origin: '*',
   credentials: true,
   optionSuccessStatus: 200,
